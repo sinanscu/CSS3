@@ -1,0 +1,31 @@
+*{
+    color: brown;
+}
+p{
+    color: aqua;
+}
+.fındık{
+    color: blue;
+}
+#karamel{
+    color: gold;
+}
+h2,h3{
+    color: chocolate;
+}
+p strong{
+    color: forestgreen;
+}
+h2 u{
+    color: black;
+}
+h4 #america{
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+}
+p .domain{
+    color: blue;
+    font-style: italic;
+    font-size: 30px;
+}

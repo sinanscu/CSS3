@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            color: black;
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            
+            font-size: 25px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            transition-property: color,background-color,width;
+            transition-duration: 2s;
+            transition-delay: 250ms;
+        }
+        div:hover{
+            color: white;
+            background-color: blue;
+            width: 200px;
+
+        }
+
+        #bir{
+            transition-timing-function: linear;
+        }
+        #iki{
+            transition-timing-function: ease;  
+        }
+        #üç{
+            transition-timing-function: ease-in; 
+        }
+        #dört{
+            transition-timing-function: ease-out; 
+        }
+        #beş{
+            transition-timing-function: ease-in-out; 
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div >İkinci Geçişim</div>
+
+
+    <div id="bir">İkinci Geçişim</div>
+    <div id="iki">İkinci Geçişim</div>
+    <div id="üç">İkinci Geçişim</div>
+    <div id="dört">İkinci Geçişim</div>
+    <div id="beş">İkinci Geçişim</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .contenier{
+                width: 900px;
+                display: grid;
+                gap: 10px;
+                background-color: rgb(198, 162, 108);
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: 100px 300px 50px 100px;
+                grid-template-areas:"ust ust ust" 
+                                    "yan içerik içerik"
+                                    "yan içerik içerik"
+                                    "alt alt alt"
+                                    ;
+
+            }
+            .header{
+                background-color: blue;
+                grid-area: ust;
+            }
+            .aside{
+                background-color:aqua;
+                grid-area: yan;
+            }
+            .icerik{
+                background-color: orange;
+                grid-area: içerik;
+            }
+            .footer{
+                background-color:grey;
+                grid-area: alt;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenier">
+            <div class="header">üst</div>
+            <div class="aside">yan</div>
+            <div class="icerik">içerik</div>
+            <div class="footer">alt</div>
+        </div>
+    </body>
+</html>

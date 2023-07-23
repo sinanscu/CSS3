@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .kutular{
+                background-color: black;
+                min-height: 600px;
+                display: flex;       
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-ev;
+
+            }
+            .kutu{
+                border-color: brown;
+                border-width: 3px;
+                background-color:blue;
+                border-style: solid;
+                width: 200px;
+            }
+            .kutu-1{
+                /*!--flex-grow: 1;--*/
+                background-color:blue;
+ 
+            }
+            .kutu-2{
+                /*!--flex-grow: 1;--*/
+                background-color: yellow;
+            }
+            .kutu-3{
+                /*!--flex-grow: 1;--*/
+                background-color:red;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="kutular">
+            <div class="kutu kutu-1">
+             <h1>Başlık 1</h1> 
+            <p>bla bla bla</p>          
+            </div>
+            <div class="kutu kutu-2">
+            <h1>Başlık 2</h1> 
+            <p>bla bla bla</p>            
+            </div>
+            <div class="kutu kutu-3"> 
+            <h1>Başlık 3</h1> 
+            <p>bla bla bla</p>            
+            </div>
+        </div>
+    </body>
+</html>
